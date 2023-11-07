@@ -1,0 +1,56 @@
+{
+  "flows": [
+    {
+      "priority": 500,
+      "timeout": 0,
+      "isPermanent": true,
+      "deviceId": "of:0000000000000001",
+      "treatment": {
+        "instructions": [
+        ]
+      },
+      "selector": {
+        "criteria": [
+          {
+            "type": "ETH_TYPE",
+            "ethType": "0x800"
+          },
+          {
+            "type": "ETH_SRC",
+            "mac": "82:4A:75:11:F3:B6"
+          },
+          {
+            "type": "ETH_DST",
+            "mac": "C2:F6:CC:89:82:FB"
+          }
+        ]
+      }
+    },
+    {
+      "priority": 500,
+      "timeout": 0,
+      "isPermanent": true,
+      "deviceId": "of:0000000000000001",
+      "treatment": {
+        "instructions": [
+        ]
+      },
+      "selector": {
+        "criteria": [
+          {
+            "type": "ETH_TYPE",
+            "ethType": "0x800"
+          },
+          {
+            "type": "ETH_SRC",
+            "mac": "C2:F6:CC:89:82:FB"
+          },
+          {
+            "type": "ETH_DST",
+            "mac": "82:4A:75:11:F3:B6"
+          }
+        ]
+      }
+    }
+  ]
+}
